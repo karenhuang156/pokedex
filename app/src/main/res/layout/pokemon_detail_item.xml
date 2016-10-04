@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/pokemonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingBottom="10dp"
+        android:textColor="@color/pokemonName"
+        android:textSize="@dimen/title_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pokemonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:alpha=".5"
+        android:paddingBottom="10dp"
+        android:shadowColor="@color/colorAccent"
+        android:textColor="@color/pokemonName"
+        android:textSize="@dimen/title_size"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/spriteDisplay"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/pokemonName"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="15dp"
+        android:contentDescription="Pokemon Gif"
+        android:scaleType="centerInside"></ImageView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/stat_cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spriteDisplay"
+        android:elevation="0dp">
+
+        <TableLayout
+            android:id="@+id/statsTableLayout"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:id="@+id/tableRow1"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/hpField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/stat_padding"
+                    android:paddingRight="@dimen/stat_padding"
+                    android:paddingStart="@dimen/stat_padding"
+                    android:text="HP"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/hp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/stat_padding"
+                    android:paddingRight="@dimen/stat_padding"
+                    android:paddingStart="@dimen/stat_padding"
+                    android:textColor="@color/cardview_shadow_start_color" />
+
+                <ProgressBar
+                    android:id="@+id/HpProgressBar"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:padding="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark"
+                    android:max="500" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/attackField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/stat_padding"
+                    android:paddingRight="@dimen/stat_padding"
+                    android:paddingStart="@dimen/stat_padding"
+                    android:text="Attack"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/attack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/stat_padding"
+                    android:paddingRight="@dimen/stat_padding"
+                    android:paddingStart="@dimen/stat_padding"
+                    android:textColor="@color/cardview_shadow_start_color" />
+
+                <ProgressBar
+                    android:id="@+id/attackProgressBar"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:padding="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark"
+
+                    android:max="500" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/defenseField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/stat_padding"
+                    android:paddingRight="@dimen/stat_padding"
+                    android:paddingStart="@dimen/stat_padding"
+                    android:text="Defense"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/defense"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/stat_padding"
+                    android:paddingRight="@dimen/stat_padding"
+                    android:paddingStart="@dimen/stat_padding"
+                    android:textColor="@color/cardview_shadow_start_color" />
+
+                <ProgressBar
+                    android:id="@+id/defenseProgressBar"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:padding="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark"
+
+                    android:max="500" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/speedField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/stat_padding"
+                    android:paddingRight="@dimen/stat_padding"
+                    android:paddingStart="@dimen/stat_padding"
+                    android:text="Speed"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/speed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/stat_padding"
+                    android:paddingRight="@dimen/stat_padding"
+
+                    android:paddingStart="@dimen/stat_padding"
+                    android:textColor="@color/cardview_shadow_start_color" />
+
+                <ProgressBar
+                    android:id="@+id/speedProgressBar"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:padding="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark"
+                    android:max="500" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/spAtkField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/stat_padding"
+                    android:paddingRight="@dimen/stat_padding"
+                    android:paddingStart="@dimen/stat_padding"
+                    android:text="Special Attack"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/spAtk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/stat_padding"
+                    android:paddingRight="@dimen/stat_padding"
+                    android:paddingStart="@dimen/stat_padding"
+                    android:textColor="@color/cardview_shadow_start_color" />
+
+                <ProgressBar
+                    android:id="@+id/spAtkProgressBar"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:padding="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark"
+                    android:max="500" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/spDefField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/stat_padding"
+                    android:paddingRight="@dimen/stat_padding"
+                    android:paddingStart="@dimen/stat_padding"
+
+                    android:text="Special Defense"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/spDef"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/stat_padding"
+                    android:paddingRight="@dimen/stat_padding"
+                    android:paddingStart="@dimen/stat_padding"
+                    android:text="Special Defense"
+                    android:textColor="@color/cardview_shadow_start_color" />
+
+                <ProgressBar
+                    android:id="@+id/spDefProgressBar"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:padding="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark"
+                    android:indeterminate="false"
+                    android:max="500" />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <TableLayout
+        android:id="@+id/profileTableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stat_cardView"
+        android:shrinkColumns="*">
+        <TableRow>
+            <TextView
+                android:id="@+id/typeTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:paddingLeft="@dimen/stat_padding"
+                android:paddingStart="@dimen/stat_padding"
+                android:text="@string/types"
+                android:textColor="@color/cardview_light_background"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/type2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/card_margin"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/card_margin"
+                android:paddingBottom="@dimen/card_margin"
+                android:textAlignment="center"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/type1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/card_margin"
+                android:layout_weight="1"
+                android:paddingBottom="@dimen/card_margin"
+                android:textAlignment="center"
+                android:textColor="@color/black"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/pokemonProfileTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:paddingLeft="@dimen/stat_padding"
+                android:paddingStart="@dimen/stat_padding"
+                android:text="@string/profile"
+                android:textColor="@color/cardview_light_background"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/heightTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/card_margin"
+                android:text="@string/height"
+                android:textSize="@dimen/labelText"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/height"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/profilePadding"
+                android:textSize="@dimen/displayText" />
+
+            <TextView
+                android:id="@+id/weightTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/profilePadding"
+                android:text="@string/weight"
+                android:textSize="@dimen/labelText"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/weight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/profilePadding"
+                android:textSize="@dimen/displayText" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/abilitiesTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/profilePadding"
+                android:text="@string/abilities"
+                android:textSize="@dimen/labelText"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/abilities"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/profilePadding"
+                android:textSize="@dimen/displayText" />
+
+            <TextView
+                android:id="@+id/captureTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/profilePadding"
+                android:text="@string/capture"
+                android:textSize="@dimen/labelText"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/capture"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/profilePadding"
+                android:textSize="@dimen/displayText" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/baseExpTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/profilePadding"
+                android:text="@string/baseExp"
+                android:textSize="@dimen/labelText"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/baseExp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/profilePadding"
+                android:textSize="@dimen/displayText" />
+
+            <TextView
+                android:id="@+id/baseHapTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/profilePadding"
+                android:text="@string/baseHap"
+                android:textSize="@dimen/labelText"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/baseHap"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/profilePadding"
+                android:textSize="@dimen/displayText" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/pokemonDescTitle"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:paddingLeft="@dimen/stat_padding"
+                android:paddingStart="@dimen/stat_padding"
+                android:text="@string/description"
+                android:textColor="@color/cardview_light_background"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/pokemonDescDetail"
+                android:paddingTop="@dimen/card_margin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/displayText" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/MoveTitle"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:paddingLeft="@dimen/stat_padding"
+                android:paddingStart="@dimen/stat_padding"
+                android:text="@string/moves"
+                android:textColor="@color/cardview_light_background"
+                android:textStyle="bold" />
+            </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/moves"
+                android:paddingTop="@dimen/card_margin"
+                android:paddingBottom="@dimen/card_margin"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/displayText"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+</RelativeLayout>

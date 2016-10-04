@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_3f3d98efd8e9e017b35225341b21a859dee2b4a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_79b3ec29ddb89893ba5997694003383d4bd7efe6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_87a08ab139a74e1605d4e474e816384a883d17e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_44539042eae4e16017231748d60fd9501694fba3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_16ef7f80a7f0e6d382e82f6150f304c0548d8e64/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_2555ce209dfb5ece14651ead7c498682b5258962/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_4c6cbd2729647f2e9fa4cd1ab6172c23cf253423/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_a9b3738a27a9cc9c49742a209e428ecac52e8278/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_353fa1768169bef64ae40a7674e3e5e651372a35/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_9c68e8af86054a6abdaee20e5a667341dc1ffc82/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_147f8c58261a28fd0c1d90d02588eab18bab3b62/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ce663f0d2c5ba0f25966366e9202ec9cd143a34e">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8fe0f90be3f5f2848afd1e40fb9548a700c76cdf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.2.1_d53aae75d970c02e293cc3198b77734be50182ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_919d4351cd36b63dca1d6b0e37a04deffb098473/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_3e08f1db41d3d4f9cd8a137cb473b361bcb2d6f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_b7c59063443840799540f56871a201ac057feae8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_8117489654350177e69d8f7bb97365d2a2566bf2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_f9fe5f902c574ef7432ac5618879eab83796ad94/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_2fb4ab45efa28dba42156b5b63febc085720cf1b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_b054afd231b2a33bc374e29b48e9248ddb09c058/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_7163a08eab323be5934e3c4e0b3e840aa5cb176f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_d0bf602ffe20a4d5a2d1a127e31a099f357e7c6e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_20d77fececd013af61552ee0e3ca661d9a4d2aef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a0bd3400d1f1e19040b3548e1fe4ea8d7cebdd2c">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0179e19a7bd4b118282960764d5ff381ec171a6f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_afb7d73171b53c5ea5458edeacbe7b83da468288/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/karriechen/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/karriechen/Desktop/UNSW/2016/Semester 2/INFS3634/Assignment/Pokedex/Pokedex/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_54f5050fcce9f932b6fc9a87d9d2e6d99b72e3e4/classes.dex" />
+    </item>
+
+</items>

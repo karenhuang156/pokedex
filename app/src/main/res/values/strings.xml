@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Karen Huang Pokedex</string>
+    <string name="description">Description</string>
+    <string name="profile">Profile</string>
+    <string name="height">Height: </string>
+    <string name="weight">Weight: </string>
+    <string name="abilities">Abilities: </string>
+    <string name="capture">Capture Rate: </string>
+    <string name="baseExp">Base Exp: </string>
+    <string name="baseHap">Base Happiness: </string>
+    <string name="moves">Moves </string>
+    <string name="types">Type: </string>
+
+
+</resources>
